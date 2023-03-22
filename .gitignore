@@ -1,3 +1,5 @@
 venv
 __pycache__
 test_testando.py
+.mypy_cache
+.pytest_cache
