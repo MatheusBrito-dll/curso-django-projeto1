@@ -1,26 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <base href="http://127.0.0.1:8000/">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&family=Space+Mono&display=swap"
+        rel="stylesheet">
+
     <title>Meu HTML</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .main-header-container {
+            background-color: #13141f;
+        }
+
+        .container {
+            max-width: 144rem;
+            margin: 0 auto;
+            padding: 3rem;
+        }
+
+        .main-logo {
+            font-family: 'Space Mono', monospace;
+            color: whitesmoke;
+            font-size: 2rem;
+            text-decoration: none;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            width: fit-content;
+            margin: 0 auto;
+
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Meu HTML</h1>
-    <p>Pagina teste para aprender todas as tags do HTML.
-    </p>
+    <header class="main-header-container">
+        <div class="main-header container">
+            <a class="main-logo" href=" ">
+                <span class="text-header">Aprenda HTML</span>
+            </a>
+        </div>
+    </header>
+
+    <p>Pagina teste para aprender todas as tags do HTML.</p>
     <a href=" ">home</a>
     &#x1F525
     &#x1F4A3
 
     <p>Logo JavaScript LINK internet</p>
     <img src="https://miro.medium.com/v2/resize:fit:640/format:webp/0*4tULZP6SMFXFHyc9.png" alt="Logo JavaScript">
-
-
 </body>
 
 </html>
