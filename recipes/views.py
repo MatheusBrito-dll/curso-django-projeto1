@@ -6,6 +6,3 @@ def home(request):
         'name': 'Matheus Brito',
     })
 
-
-def teste(request):
-    return render(request, 'recipes/pages/teste.html')
